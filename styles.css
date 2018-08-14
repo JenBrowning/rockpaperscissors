@@ -1,0 +1,36 @@
+h1 {
+    color: darkgray;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+h2 {
+    color: darkgray;
+    font-family: fantasy;
+}
+
+h3 {
+    color: darkgray;
+    font-family: fantasy;
+}
+
+p {
+    font-family: fantasy;
+}
+
+img {
+    padding: 10px;
+    margin: 10px;
+    -webkit-filter: grayscale(100%);
+    filter: drop-shadow(100%);
+}
+
+img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+#button:hover {
+    opacity: 1;
+    right: 0;
+}
